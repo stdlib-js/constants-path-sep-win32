@@ -24,32 +24,30 @@ limitations under the License.
 
 > Windows path segment separator.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-path-sep-win32
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-PATH_SEP_WIN32 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-win32@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-win32@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.PATH_SEP_WIN32;
-})();
-</script>
+var PATH_SEP_WIN32 = require( '@stdlib/constants-path-sep-win32' );
 ```
 
 #### PATH_SEP_WIN32
@@ -71,13 +69,8 @@ var sep = PATH_SEP_WIN32;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-win32@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var PATH_SEP_WIN32 = require( '@stdlib/constants-path-sep-win32' );
 
 var parts;
 var path;
@@ -89,11 +82,6 @@ parts = path.split( PATH_SEP_WIN32 );
 path = 'foo/bar/baz';
 parts = path.split( PATH_SEP_WIN32 );
 // returns ['foo/bar/baz' ]
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -180,14 +168,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/constants-path-sep-win32/tree/deno
 [umd-url]: https://github.com/stdlib-js/constants-path-sep-win32/tree/umd
 [esm-url]: https://github.com/stdlib-js/constants-path-sep-win32/tree/esm
+[branches-url]: https://github.com/stdlib-js/constants-path-sep-win32/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-path-sep-win32/main/LICENSE
 
 <!-- <related-links> -->
 
-[@stdlib/constants/path/sep]: https://github.com/stdlib-js/constants-path-sep/tree/umd
+[@stdlib/constants/path/sep]: https://github.com/stdlib-js/constants-path-sep
 
-[@stdlib/constants/path/sep-posix]: https://github.com/stdlib-js/constants-path-sep-posix/tree/umd
+[@stdlib/constants/path/sep-posix]: https://github.com/stdlib-js/constants-path-sep-posix
 
 <!-- </related-links> -->
 
