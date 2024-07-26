@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import PATH_SEP_WIN32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-win32@deno/mod.js';
+import PATH_SEP_WIN32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-win32@v0.2.2-deno/mod.js';
 ```
 
 #### PATH_SEP_WIN32
@@ -65,7 +65,7 @@ var sep = PATH_SEP_WIN32;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import PATH_SEP_WIN32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-win32@deno/mod.js';
+import PATH_SEP_WIN32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-win32@v0.2.2-deno/mod.js';
 
 var path = 'foo\\bar\\baz';
 var parts = path.split( PATH_SEP_WIN32 );
