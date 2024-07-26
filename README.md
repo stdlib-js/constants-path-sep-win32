@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import PATH_SEP_WIN32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-win32@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-path-sep-win32/tags). For example,
+
+```javascript
 import PATH_SEP_WIN32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-win32@v0.2.2-deno/mod.js';
 ```
 
@@ -65,7 +70,7 @@ var sep = PATH_SEP_WIN32;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import PATH_SEP_WIN32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-win32@v0.2.2-deno/mod.js';
+import PATH_SEP_WIN32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-win32@deno/mod.js';
 
 var path = 'foo\\bar\\baz';
 var parts = path.split( PATH_SEP_WIN32 );
